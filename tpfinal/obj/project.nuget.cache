@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "d3cua7aW5f4p6s3T7of9GF5ILDGHS3xgp13ht8R4MAAo94diBX1NR91PyEpyLPoisgedBxmbB0u9aC0QoVN2Mw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Pablo\\Downloads\\tpfinal\\tpfinal\\tpfinal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pablo\\.nuget\\packages\\textfieldparserstandard\\1.0.0\\textfieldparserstandard.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

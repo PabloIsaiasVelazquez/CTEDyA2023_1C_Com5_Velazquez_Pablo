@@ -1,0 +1,102 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "TextFieldParserStandard/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TextFieldParserStandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TextFieldParserStandard.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TextFieldParserStandard/1.0.0": {
+      "sha512": "nUPdG2W4nIYdaka8li2QM5NFjNAyGMZTtwxV5QmRqr0Y9Ai1giYkEqyDGlEzANqZjOIoSno4x7ZZdiRyrJFe4A==",
+      "type": "package",
+      "path": "textfieldparserstandard/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/TextFieldParserStandard.dll",
+        "textfieldparserstandard.1.0.0.nupkg.sha512",
+        "textfieldparserstandard.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "TextFieldParserStandard >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Pablo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Pablo\\Downloads\\tpfinal\\tpfinal\\tpfinal.csproj",
+      "projectName": "tpfinal",
+      "projectPath": "C:\\Users\\Pablo\\Downloads\\tpfinal\\tpfinal\\tpfinal.csproj",
+      "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Pablo\\Downloads\\tpfinal\\tpfinal\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Pablo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "TextFieldParserStandard": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

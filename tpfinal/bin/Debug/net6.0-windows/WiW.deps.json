@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WiW/1.0.0": {
+        "dependencies": {
+          "TextFieldParserStandard": "1.0.0"
+        },
+        "runtime": {
+          "WiW.dll": {}
+        }
+      },
+      "TextFieldParserStandard/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/TextFieldParserStandard.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WiW/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TextFieldParserStandard/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nUPdG2W4nIYdaka8li2QM5NFjNAyGMZTtwxV5QmRqr0Y9Ai1giYkEqyDGlEzANqZjOIoSno4x7ZZdiRyrJFe4A==",
+      "path": "textfieldparserstandard/1.0.0",
+      "hashPath": "textfieldparserstandard.1.0.0.nupkg.sha512"
+    }
+  }
+}
